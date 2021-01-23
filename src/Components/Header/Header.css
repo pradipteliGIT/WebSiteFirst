@@ -1,0 +1,51 @@
+.app-header{
+    height: 60px;
+    width: 100%;
+    background: #6b95e2;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    top:0;
+    right: 0;
+    left:0;
+}
+
+.app-header-logo{
+  width:10%
+}
+.app-header-title{
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.app-header-links{
+    width:40%;
+    padding:0 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.app-header-links li{
+    list-style-type: none;
+    cursor: pointer;    
+    color: #FFFFFF;
+    flex: 1;
+    margin: 2px;
+    padding:10px;
+    background: #a4b5d4;
+    border: 1px solid #a4b5d4;
+    transition: all 0.5s linear;
+}
+
+.app-header-links li:hover{
+    background: #6c94df;
+}
+
+.app-header-links .selected{
+    background: #467ada;
+}
